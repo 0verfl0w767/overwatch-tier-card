@@ -8,7 +8,7 @@ Show your Overwatch tier using card profile.
 
 # Usage / 사용법
 
-`![](https://ow2.kro.kr/player/BATTLE-TAG)`
+`![](https://ow.profilecard.kr/player/BATTLE-TAG)`
 
 > If your profile is private, your card will not be created properly.
 
@@ -16,7 +16,7 @@ Show your Overwatch tier using card profile.
 
 # Example / 예시
 
-`![](https://ow2.kro.kr/player/TEST-1234)`
+`![](https://ow.profilecard.kr/player/TEST-1234)`
 
 > If the battle tag is **TEST#1234**, just enter **TEST-1234**.
 
@@ -24,14 +24,10 @@ Show your Overwatch tier using card profile.
 
 # Card Profile / 카드 프로필
 
-![](https://ow2.kro.kr/player/Kalios-31498)
+![](https://ow.profilecard.kr/player/Dark-211950)
 
-![](https://ow2.kro.kr/player/ANS-31917)
+![](https://ow.profilecard.kr/player/Papiangel-11314)
 
-![](https://ow2.kro.kr/player/날비추는비까리-3938)
+![](https://ow.profilecard.kr/player/팝풉풉팝풉-3608)
 
-![](https://ow2.kro.kr/player/GOSOO-31257)
-
-![](https://ow2.kro.kr/player/BUM-31205)
-
-![](https://ow2.kro.kr/player/형나만봐줘요-3376)
+![](https://ow.profilecard.kr/player/메르시픽하면던짐-3170)
