@@ -8,11 +8,7 @@
 
 # Usage / 사용법
 
-<<<<<<< HEAD
 `![](https://profilecard.kr/player/BATTLE-TAG)`
-=======
-`![](https://ow.profilecard.kr/player/BATTLE-TAG)`
->>>>>>> 3537fc1b0a85ad58d88d96eea3186858b8d2ae41
 
 > If your profile is private, your card will not be created properly.
 
@@ -20,25 +16,8 @@
 
 # Example / 예시
 
-<<<<<<< HEAD
 `![](https://profilecard.kr/player/TEST-1234)`
-=======
-`![](https://ow.profilecard.kr/player/TEST-1234)`
->>>>>>> 3537fc1b0a85ad58d88d96eea3186858b8d2ae41
 
 > If the battle tag is **TEST#1234**, just enter **TEST-1234**.
 
 > 배틀태그가 **TEST#1234**인 경우 **TEST-1234**로 넣으면 됩니다.
-<<<<<<< HEAD
-=======
-
-# Card Profile / 카드 프로필
-
-![](https://ow.profilecard.kr/player/Dark-211950)
-
-![](https://ow.profilecard.kr/player/Papiangel-11314)
-
-![](https://ow.profilecard.kr/player/팝풉풉팝풉-3608)
-
-![](https://ow.profilecard.kr/player/메르시픽하면던짐-3170)
->>>>>>> 3537fc1b0a85ad58d88d96eea3186858b8d2ae41
