@@ -62,8 +62,9 @@ export class AppService {
   public setBoxShadow(tier: string) {
     let color = '';
 
-    if (tier == 'grandmaster') color = '#2EFEF7';
-    else if (tier == 'master') color = '#FFFF00';
+    if (tier == 'ultimate') color = '#ae00ffff';
+    else if (tier == 'grandmaster') color = '#c343ffff';
+    else if (tier == 'master') color = '#28ff28ff';
     else if (tier == 'diamond') color = '#0080FF';
     else if (tier == 'platinum') color = '#009999';
     else return ``;
@@ -89,6 +90,12 @@ export class AppService {
   }
 
   public async getImageToBase64(url: string): Promise<string> {
+    if (url.includes('Rank_')) {
+      const filename = url.substring(url.lastIndexOf('/') + 1);
+      const base64String = this.toBase64(__dirname + '/../public/image/rank/' + filename);
+      return base64String;
+    }
+
     let datas = '';
 
     await lastValueFrom(this.HttpService.get(url, { responseType: 'arraybuffer' }))
@@ -124,9 +131,6 @@ export class AppService {
       <defs>
         <style>
         <![CDATA[
-        .position {
-          animation: position_fade 3s infinite alternate;
-        }
         .tank_tier {
           animation: tank_fade 3s infinite alternate;
         }
@@ -135,15 +139,6 @@ export class AppService {
         }
         .support_tier {
           animation: support_fade 3s infinite alternate;
-        }
-        @keyframes position_fade {
-          0%, 50% {
-            filter: drop-shadow(0px 0px 0px #000);
-          }
-          100% {
-            filter: drop-shadow(0px 0px 10px black)
-            drop-shadow(0px 0px 25px black);
-          }
         }
         @keyframes tank_fade {
           ${this.setBoxShadow(tankN)}
